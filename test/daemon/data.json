@@ -1,0 +1,153 @@
+[
+  { 
+    "seq": 1,
+    "profile" : {
+      "wallet" : {
+        "balance" : 1000,
+        "placed" : 149,
+        "available" : 851,
+        "currency" : "VOTES",
+        "address" : [
+          {
+            "hash" : "671f1aae-3c2d-3bdc-387c-b0ae088fa6d9",
+            "collectiveId" : "XJztGegp4DHcvmvNA"
+          }
+        ],
+        "ledger" : [ ]
+      }
+	  }
+  },
+  {
+    "seq": 2,
+    "profile" : {
+      "wallet" : {
+        "balance" : 66,
+        "placed" : 0,
+        "available" : 66,
+        "currency" : "ETH",
+        "address" : [
+          {
+            "hash" : "0x9D4e856E572E442f0A4b2763e72d08A0E99D8deD",
+            "collectiveId" : "ETH"
+          }
+        ],
+        "ledger" : [ ],
+        "externalToken": true
+      }
+	  }
+  },
+  {
+    "seq": 3,
+    "profile" : {
+      "wallet" : {
+        "balance" : 66,
+        "placed" : 66,
+        "available" : 0,
+        "currency" : "ETH",
+        "address" : [
+          {
+            "hash" : "0x9D4e856E572E442f0A4b2763e72d08A0E99D8deD",
+            "collectiveId" : "ETH"
+          }
+        ],
+        "ledger" : [ ],
+        "externalToken": true
+      }
+	  }
+  },
+  {
+    "seq": 4,
+    "profile" : {
+      "wallet" : {
+        "balance" : 66,
+        "placed" : 64,
+        "available" : 2,
+        "currency" : "ETH",
+        "address" : [
+          {
+            "hash" : "0x9D4e856E572E442f0A4b2763e72d08A0E99D8deD",
+            "collectiveId" : "ETH"
+          }
+        ],
+        "ledger" : [ ],
+        "externalToken": true
+      }
+	  }
+  },
+  {
+    "seq": 5,
+    "profile" : {
+      "wallet" : {
+        "balance" : 66,
+        "placed" : 50,
+        "available" : 10,
+        "currency" : "ETH",
+        "address" : [
+          {
+            "hash" : "0x9D4e856E572E442f0A4b2763e72d08A0E99D8deD",
+            "collectiveId" : "ETH"
+          }
+        ],
+        "ledger" : [ ],
+        "externalToken": true
+      }
+	  }
+  },
+  {
+    "seq": 6,
+    "profile" : {
+      "wallet" : {
+        "balance" : 22,
+        "placed" : 0,
+        "available" : 22,
+        "currency" : "ETH",
+        "address" : [
+          {
+            "hash" : "0x0f95CF55C6d3bAB47E084EF3Dd1AC4970327B042",
+            "collectiveId" : "ETH"
+          }
+        ],
+        "ledger" : [ ],
+        "externalToken": true
+      }
+	  }
+  },
+  {
+    "seq": 7, 
+    "profile" : {
+      "wallet" : {
+        "balance" : 22,
+        "placed" : 22,
+        "available" : 0,
+        "currency" : "ETH",
+        "address" : [
+          {
+            "hash" : "0x0f95CF55C6d3bAB47E084EF3Dd1AC4970327B042",
+            "collectiveId" : "ETH"
+          }
+        ],
+        "ledger" : [ ],
+        "externalToken": true
+      }
+	  }
+  },
+  {
+    "seq": 8,
+    "profile" : {
+      "wallet" : {
+        "balance" : 22,
+        "placed" : 20,
+        "available" : 2,
+        "currency" : "ETH",
+        "address" : [
+          {
+            "hash" : "0x0f95CF55C6d3bAB47E084EF3Dd1AC4970327B042",
+            "collectiveId" : "ETH"
+          }
+        ],
+        "ledger" : [ ],
+        "externalToken": true
+      }
+	  }
+  }
+]

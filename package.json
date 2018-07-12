@@ -1,0 +1,32 @@
+{
+  "name": "balance-keeper",
+  "version": "0.0.1",
+  "description": "Token Balance Keeper Daemon",
+  "main": "index.js",
+  "scripts": {
+    "test-testnet-functional": "NODE_ENV=testnet mocha test/functional.js --exit",
+    "debug": "NODE_ENV=testnet node --nolazy --inspect-brk=9229 daemond.js",
+    "start": "node daemond.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemocracyEarth/balance-keeper.git"
+  },
+  "keywords": [
+    "daemon"
+  ],
+  "author": "DEF",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DemocracyEarth/balance-keeper/issues"
+  },
+  "homepage": "https://github.com/DemocracyEarth/balance-keeper#readme",
+  "dependencies": {
+    "mongodb": "^3.1.1",
+    "web3": "^1.0.0-beta.34"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
