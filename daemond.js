@@ -5,9 +5,10 @@
  * 
 */
 
-const eth = require('./eth/main.js');
+const ETH = require('./eth/main.js');
 const Database = require('./db/main.js');
 const {votePower} = require('./utils');
+const eth = new ETH();
 
 // run inside timeout
 adjustBalance();
