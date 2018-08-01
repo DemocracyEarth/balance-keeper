@@ -27,7 +27,7 @@ const testnet = {
 
 const mainnet = {
   env: 'mainnet',
-  network: process.env.NETWORK || 'https://democracy.earth.eth.node/',
+  network: process.env.NETWORK || 'https://mainnet.infura.io/',
   mongo: {
     url: process.env.MONGO_URL || 'mongodb://localhost:27017',
     name: process.env.MONGO_NAME || 'test'

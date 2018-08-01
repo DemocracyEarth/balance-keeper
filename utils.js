@@ -1,13 +1,14 @@
 'use strict';
-const sigFigs = 18;
+const sigFigsETH = 18;
 
-function whole(total) {
+function whole(total, decimals) {
   if (total === "0") return total;
-  return Number(total.substring(0, total.length - sigFigs).replace(/^0+/, '') || "0");
+  decimals = decimals || sigFigsETH;
+  return Number(total.substring(0, total.length - decimals).replace(/^0+/, '') || "0");
 }
 
-function votePower(balance) {
-  var wholeTotal = whole(balance);
+function votePower(balance, decimals) {
+  var wholeTotal = whole(balance, decimals);
   if (wholeTotal == 0) {
     return 10;
   } else if (wholeTotal <= 10) {
