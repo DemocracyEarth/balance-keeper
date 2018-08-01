@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/DemocracyEarth/balance-keeper#readme",
   "dependencies": {
+    "bignumber": "^1.1.0",
     "mongodb": "^3.1.1",
     "web3": "^1.0.0-beta.34"
   },
