@@ -22,7 +22,7 @@ class db {
   }
 
   getUsers() {
-    return this.db.collection('users').find({'profile.wallet.externalToken': true});
+    return this.db.collection('users').find();
   }
 
   updateUserBalance(user, userVotePower) {

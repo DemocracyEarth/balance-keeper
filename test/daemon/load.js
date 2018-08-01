@@ -1,12 +1,13 @@
 const MongoClient = require('mongodb').MongoClient;
 const data = require('./data');
+const config = require('../../config/config.js');
 
 load();
 
 async function load() {
-  const client = await MongoClient.connect('mongodb://localhost:27017', { useNewUrlParser: true });
+  const client = await MongoClient.connect(config.mongo.url, { useNewUrlParser: true });
 
-  const db = client.db('test');
+  const db = client.db(config.mongo.name);
   const collections = await db.collections();
   if (collections.map(c => c.s.name).includes('users')) {
     await db.collection('users').drop();
